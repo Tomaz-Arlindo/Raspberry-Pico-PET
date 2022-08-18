@@ -1,8 +1,8 @@
 # Raspberry-Pico-PET
 # Projeto de coleta de dados para freezer IoT
 
-#### tabela de conteudos
-    * [testes](#Componentes:)
+
+   * [testes](#Componentes:)
 
 
 # Componentes:
