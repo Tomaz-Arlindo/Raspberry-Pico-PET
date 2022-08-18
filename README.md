@@ -1,4 +1,4 @@
-Projeto PET Freezer IoT
+# Projeto PET Freezer IoT
 
 ### Sumário:
   * [Componentes](#componentes)
