@@ -1,7 +1,7 @@
 Projeto PET Freezer IoT
 
   * [1](#teste1)
-  * [2](#teste2) /t
+  * [2](#teste2) \t
   * [3](#teste3)
   * [4](#teste4)
   
