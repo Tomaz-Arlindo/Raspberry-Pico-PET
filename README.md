@@ -13,8 +13,5 @@ Projeto PET Freezer IoT
   
   # Montagem:
   ![teste](link imagem)
-  ![teste](link imagem)
-  ![teste](link imagem)
-  ![teste](link imagem)
   
   # Códigos:
