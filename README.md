@@ -1,21 +1,24 @@
 # Projeto PET Freezer IoT
 
-### Sumário:
+##### Sumário:
   * [Componentes](#componentes)
   * [Protocolos](#protocolos) 
   * [Montagem](#montagem)
   * [Códigos](#códigos)
   
   
-  # Componentes:
+  ## Componentes:
+  breve resumo e dattasheets
   
-  # Protocolos:
+  ## Protocolos:
+  protocolos de conexão utilizados
+  
   [I2C](https://how2electronics.com/how-to-use-i2c-pins-in-raspberry-pi-pico-i2c-scanner/)
   
-  # Montagem:
+  ## Montagem:
   ![modelo-cad](https://github.com/Tomaz-Arlindo/Raspberry-Pico-PET/blob/main/Slide/fritzing-pipico.png)
   
-  # Códigos:
+  ## Códigos:
   
   ```python
   print("Hello world!!!")
