@@ -4,7 +4,6 @@ Projeto PET Freezer IoT
   * [Componentes](#componentes)
   * [Protocolos](#protocolos) 
   * [Montagem](#montagem)
-  *   [fz](#fritzing)
   * [Códigos](#códigos)
   
   
@@ -13,6 +12,5 @@ Projeto PET Freezer IoT
   # Protocolos:
   
   # Montagem:
-   # fritzing
   
   # Códigos:
