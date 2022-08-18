@@ -3,7 +3,7 @@
 
 tabela de conteudos 
 
- * [teste](#componentes:)
+ * [teste](#Componentes:)
 
 
 
