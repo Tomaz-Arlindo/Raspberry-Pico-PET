@@ -1,7 +1,6 @@
 # Raspberry-Pico-PET
-## Projeto de coleta de dados para freezer IoT
-
-### Componentes utilizados:
+# Projeto de coleta de dados para freezer IoT
+## Componentes utilizados:
 
 ### Raspberry pi pico(RP2040):
 
