@@ -3,7 +3,7 @@
 
 tabela de conteudos 
 
-* [Teste](#Componentes utilizados:) 
+* [teste](#Componentes) 
 
 
 
@@ -12,7 +12,7 @@ tabela de conteudos
 
 
 
-## Componentes utilizados:
+# Componentes
 ###   Raspberry pi pico(RP2040):
 
 ###   ESP8266(ESP-01):
