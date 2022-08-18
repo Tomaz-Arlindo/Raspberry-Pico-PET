@@ -9,6 +9,16 @@ tabela de conteudos
 
 
 
+
+
+
+
+
+
+
+
+
+
 # Componentes:
 
 ###   Raspberry pi pico(RP2040):
