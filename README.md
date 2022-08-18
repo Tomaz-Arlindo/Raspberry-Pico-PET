@@ -12,6 +12,6 @@ Projeto PET Freezer IoT
   # Protocolos:
   
   # Montagem:
-  ![teste](link imagem)
+  ![modelo-cad](https://github.com/Tomaz-Arlindo/Raspberry-Pico-PET/blob/main/Slide/fritzing-pipico.png)
   
   # Códigos:
