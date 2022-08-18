@@ -1,43 +1,18 @@
 Projeto PET Freezer IoT
 
-  * [1](#teste1)
-  * [2](#teste2) \t
-  * [3](#teste3)
-  * [4](#teste4)
+### Sumário:
+  * [Componentes](#componentes)
+  * [Protocolos](#protocolos) 
+  * [Montagem](#montagem)
+  *   [fz](#fritzing)
+  * [Códigos](#códigos)
   
   
-  # teste1
-  ### a
-  ## a
-  # a
-  ### a
-  ## a
-  # a
+  # Componentes:
   
-  # teste2
-  # b
-  ## b
-  ### b
-  ## b
-  # b
-  ## b
-  ### b
+  # Protocolos:
   
-  # teste3
-  # c
-  ## c
-  ### c
-  ## c
-  # c
-  ## c
-  ### c
+  # Montagem:
+   # fritzing
   
-  
-  # teste4
-  ### d
-  ## d
-  # d
-  ## d
-  ### d
-  #### d
-  ##### d
+  # Códigos:
