@@ -9,10 +9,8 @@ tabela de conteudos
 
 
 
-
-
-
 # Componentes:
+
 ###   Raspberry pi pico(RP2040):
 
 ###   ESP8266(ESP-01):
