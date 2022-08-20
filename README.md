@@ -15,8 +15,12 @@
   
   ## Componentes:
   breve resumo e dattasheets
-  * **Raspberry pi Pico** *(RP2040-Controlador)* :
-  * **ESP-01** *(ESP-8266-Conexão Wi-Fi)* :
+  * **[Raspberry pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico-and-pico-h)** *(RP2040 Controlador)* :
+  
+      testando descrição muito boa topzera melhor de todas
+      > muito top mesmo  sempre uso é show
+      
+  * **ESP-01** *(ESP-8266 Conexão Wi-Fi)* :
   * **MPU6050** *(Módulo Acelerômetro 3 Eixos)* :
   * **DS18B20** *(Sensor de Temperatura)* :
   * **ACS712** *(Sensor de Corrente 20A max)* :
@@ -74,4 +78,6 @@
   ~~~python 
   print("hello")
   ~~~
+  
+  
   testando
