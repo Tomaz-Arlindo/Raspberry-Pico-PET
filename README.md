@@ -39,7 +39,35 @@
   
   
   ## Montagem:
-  ![modelo-cad](image-link)
+  pinagem pico
+  ![pico-pinout](https://github.com/Tomaz-Arlindo/Raspberry-Pico-PET/blob/main/images/pico-pinout.png)
+  <p align="center">
+  (Pinagem da placa raspberry pi pico)
+  </p>
+  
+  ds18b20
+  ![pico-ds18b20](https://github.com/Tomaz-Arlindo/Raspberry-Pico-PET/blob/main/images/pico-ds18b20.png)
+  <p align="center">
+  (montagem ds18b20)
+  </p>
+  
+  mpu6050
+  ![pico-mpu6050](https://github.com/Tomaz-Arlindo/Raspberry-Pico-PET/blob/main/images/pico-mpu6050.png)
+  <p align="center">
+  (montagem ds18b20)
+  </p>
+  
+  acs712
+  ![pico-acs712](https://github.com/Tomaz-Arlindo/Raspberry-Pico-PET/blob/main/images/pico-acs712.png)
+  <p align="center">
+  (montagem acs712)
+  </p>
+  
+  esp-01
+  ![pico-esp01](https://github.com/Tomaz-Arlindo/Raspberry-Pico-PET/blob/main/images/pico-esp01.png)
+  <p align="center">
+  (montagem esp-01)
+  </p>
   
   ## Códigos:
   
