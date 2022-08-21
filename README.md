@@ -1,5 +1,5 @@
 # Projeto PET Freezer IoT
-
+  <p align="center"> README incompleto !!! <p>
 
 ### Sumário:
   * [Componentes](#componentes)
@@ -15,15 +15,15 @@
   
   ## Componentes:
   breve resumo e dattasheets
-  * **[Raspberry pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico-and-pico-h)** *(RP2040 Controlador)* :
+  * **[Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico-and-pico-h)** *(RP2040 Controlador)* :
   
       testando descrição muito boa topzera melhor de todas
       > muito top mesmo  sempre uso é show
       
-  * **ESP-01** *(ESP-8266 Conexão Wi-Fi)* :
-  * **MPU6050** *(Módulo Acelerômetro 3 Eixos)* :
-  * **DS18B20** *(Sensor de Temperatura)* :
-  * **ACS712** *(Sensor de Corrente 20A max)* :
+  * **[MPU6050]()** *(Módulo Acelerômetro 3 Eixos)* :
+  * **[DS18B20]()** *(Sensor de Temperatura)* :
+  * **[ACS712]()** *(Sensor de Corrente 20A max)* :
+  * **[ESP-01]()** *(ESP-8266 Conexão Wi-Fi)* :
   
   
   ## Protocolos:
@@ -39,35 +39,25 @@
   
   
   ## Montagem:
-  pinagem pico
+  pinagem Raspberry Pi Pico
   ![pico-pinout](https://github.com/Tomaz-Arlindo/Raspberry-Pico-PET/blob/main/images/pico-pinout.png)
-  <p align="center">
-  (Pinagem da placa raspberry pi pico)
-  </p>
+  <p align="center">(Pinagem da placa Raspberry Pi Pico)</p>
   
   ds18b20
   ![pico-ds18b20](https://github.com/Tomaz-Arlindo/Raspberry-Pico-PET/blob/main/images/pico-ds18b20.png)
-  <p align="center">
-  (montagem ds18b20)
-  </p>
+  <p align="center">(montagem do ds18b20)</p>
   
   mpu6050
   ![pico-mpu6050](https://github.com/Tomaz-Arlindo/Raspberry-Pico-PET/blob/main/images/pico-mpu6050.png)
-  <p align="center">
-  (montagem ds18b20)
-  </p>
+  <p align="center">(montagem do mpu6050)</p>
   
   acs712
   ![pico-acs712](https://github.com/Tomaz-Arlindo/Raspberry-Pico-PET/blob/main/images/pico-acs712.png)
-  <p align="center">
-  (montagem acs712)
-  </p>
+  <p align="center">(montagem do acs712)</p>
   
   esp-01
   ![pico-esp01](https://github.com/Tomaz-Arlindo/Raspberry-Pico-PET/blob/main/images/pico-esp01.png)
-  <p align="center">
-  (montagem esp-01)
-  </p>
+  <p align="center">(montagem do esp-01)</p>
   
   ## Códigos:
   
@@ -107,5 +97,4 @@
   print("hello")
   ~~~
   
-  
-  testando
+  <p align="center"> README incompleto !!! <p>
