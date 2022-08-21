@@ -6,8 +6,8 @@
   * [Protocolos](#protocolos) 
   * [Montagem](#montagem)
   * [Códigos](#códigos)
-    * [MPU6050](#mpu6050-code)
     * [DS18B20](#ds18b20-code)
+    * [MPU6050](#mpu6050-code)
     * [ACS712](#acs712-code)
     * [ESP-01](#esp-01-code)
 
@@ -16,8 +16,8 @@
   ## Componentes:
   breve resumo e dattasheets
   * **[Raspberry Pi Pico](https://hackspace.raspberrypi.com/books/micropython-pico)** *(RP2040 Controlador):*
-  * **[MPU6050]()** *(Módulo Acelerômetro 3 Eixos):*
   * **[DS18B20]()** *(Sensor de Temperatura):*
+  * **[MPU6050]()** *(Módulo Acelerômetro 3 Eixos):*
   * **[ACS712]()** *(Sensor de Corrente 20A max):*
   * **[ESP-01]()** *(ESP-8266 Conexão Wi-Fi):*
   
@@ -25,10 +25,11 @@
   ## Protocolos:
   protocolos de conexão utilizados
   
- [I2C](https://how2electronics.com/how-to-use-i2c-pins-in-raspberry-pi-pico-i2c-scanner/)
- 
- 
+  
  [GPIO](https://www.oficinadanet.com.br/hardware/40552-o-que-e-gpio)
+  
+  
+ [I2C](https://how2electronics.com/how-to-use-i2c-pins-in-raspberry-pi-pico-i2c-scanner/)
  
  
  [UART](https://www.rohde-schwarz.com/br/produtos/teste-e-medicao/osciloscopios/educational-content/compreender-uart_254524.html)
@@ -63,21 +64,32 @@
   
   ## Códigos:
   
+  ##### DS18B20-CODE
+  ~~~Python
+    #importação das bibliotecas para pinos, protocolo, sensor e tempo 
+    import machine, oneWire, ds18x20, time 
+
+    pinoTemp = machine.Pin(6) #define o pino utilizado na montagem
+    sensTemp = ds18x20.DS18X20(onewire.OneWire(pinoTemp)) #define protocolo
+    idTemp = sensTemp.scan() #identifica endereço dos sensores conectados
+    print("Sensores encontrados:",idTemp)
+
+    while True:
+        sensTemp.convert_temp() #realiza conversão de temperatura (min 750ms)
+        time.sleep_ms(750)
+        for i in idTemp:
+            print(sensTemp.read_temp(i), "oC", end = ";") #realiza leitura de cada sensor
+            time.sleep(3)
+        print("\n")
+  ~~~
+  
   ##### MPU6050-CODE
   ~~~Python
-  import os
+  from mpu6050 import mpu6050
   os.mkdir("teste")
   print("Hello world!!!")
   
-  ~~~
-  
- ##### DS18B20-CODE
-  ~~~Python
-  import machine
-  x = machine.pin(8) 
-  print("Hello world!!!")
-  
-  ~~~
+  ~~~ 
   
  ##### ACS712-CODE
    ~~~Python
