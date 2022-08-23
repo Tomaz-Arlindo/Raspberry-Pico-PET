@@ -33,7 +33,7 @@
  [I2C](https://how2electronics.com/how-to-use-i2c-pins-in-raspberry-pi-pico-i2c-scanner/) *(Inter-Integrated Circuit)* - um barramento serial multimestre que é usado para conectar periféricos de baixa velocidade ao sistema embarcado
  
  
- [ADC](https://www.circuitschools.com/how-to-use-adc-on-raspberry-pi-pico-in-detail-with-micropython-example/) *(Analog to Digital Converter)* - gerar uma representação digital a partir de uma grandeza analógica
+ [ADC](https://www.circuitschools.com/how-to-use-adc-on-raspberry-pi-pico-in-detail-with-micropython-example/) *(Analog to Digital Converter)* - gera uma representação digital a partir de uma grandeza analógica
  
  
  [UART](https://www.rohde-schwarz.com/br/produtos/teste-e-medicao/osciloscopios/educational-content/compreender-uart_254524.html) *(Universal Asynchronous Receiver/Transmitter)* -  utiliza dois fios entre o transmissor e o receptor para estabelecer comunicação em ambas as direções de forma serial
