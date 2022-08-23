@@ -15,24 +15,28 @@
   
   ## Componentes:
   breve resumo e dattasheets
-  * **[Raspberry Pi Pico](https://hackspace.raspberrypi.com/books/micropython-pico)** *(RP2040 Controlador):*
-  * **[DS18B20]()** *(Sensor de Temperatura):*
-  * **[MPU6050]()** *(Módulo Acelerômetro 3 Eixos):*
-  * **[ACS712]()** *(Sensor de Corrente 20A max):*
-  * **[ESP-01]()** *(ESP-8266 Conexão Wi-Fi):*
+  * **[Raspberry Pi Pico](https://hackspace.raspberrypi.com/books/micropython-pico)** *(RP2040 Micro Controlador):*
+  * **[DS18B20](https://randomnerdtutorials.com/micropython-ds18b20-esp32-esp8266/)** *(Sensor de Temperatura):*
+  * **[MPU6050](https://microdigisoft.com/mpu6050-with-raspberry-pi-pico-using-micropython/)** *(Módulo Acelerômetro 3 Eixos):*
+  * **[ACS712](https://how2electronics.com/how-to-use-adc-in-raspberry-pi-pico-adc-example-code/)** *(Sensor de Corrente 20A max):*
+  * **[ESP-01](https://www.filipeflop.com/blog/como-conectar-a-raspberry-pi-pico-ao-wifi-com-esp8266/)** *(ESP-8266 Conexão Wi-Fi):*
   
   
   ## Protocolos:
   protocolos de conexão utilizados
   
   
- [GPIO](https://www.oficinadanet.com.br/hardware/40552-o-que-e-gpio)
+ [GPIO](https://www.oficinadanet.com.br/hardware/40552-o-que-e-gpio) *(General Purpose Input/Output)* - portas programáveis de entrada e saída de dados que são utilizadas para prover uma interface entre os periféricos e os microcontroladores/microprocessadores
+ 
   
   
- [I2C](https://how2electronics.com/how-to-use-i2c-pins-in-raspberry-pi-pico-i2c-scanner/)
+ [I2C](https://how2electronics.com/how-to-use-i2c-pins-in-raspberry-pi-pico-i2c-scanner/) *(Inter-Integrated Circuit)* - um barramento serial multimestre que é usado para conectar periféricos de baixa velocidade ao sistema embarcado
  
  
- [UART](https://www.rohde-schwarz.com/br/produtos/teste-e-medicao/osciloscopios/educational-content/compreender-uart_254524.html)
+ [ADC](https://www.circuitschools.com/how-to-use-adc-on-raspberry-pi-pico-in-detail-with-micropython-example/) *(Analog to Digital Converter)* - gerar uma representação digital a partir de uma grandeza analógica
+ 
+ 
+ [UART](https://www.rohde-schwarz.com/br/produtos/teste-e-medicao/osciloscopios/educational-content/compreender-uart_254524.html) *(Universal Asynchronous Receiver/Transmitter)* -  utiliza dois fios entre o transmissor e o receptor para estabelecer comunicação em ambas as direções de forma serial
   
   
   ## Montagem:
