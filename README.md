@@ -115,6 +115,8 @@
   print("hello")
   ~~~
   
+  https://github.com/micropython/micropython/tree/master/drivers/onewire
+  
   
    testando descrição muito boa topzera melhor de todas
    > muito top mesmo  sempre uso é show
