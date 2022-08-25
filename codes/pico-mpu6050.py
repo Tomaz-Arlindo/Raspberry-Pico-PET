@@ -1,7 +1,7 @@
 #importação das bibliotecas
 import machine, time, mpu6050
 
-#define pinos para i2c
+#define pinos i2c utilizados na montagem (GPIO21 - pino 27) (GPIO20 - pino 26) 
 i2c = machine.I2C(0, scl= machine.Pin(21), sda= machine.Pin(20), freq=400000)
 mpu6050.mpu6050_init(i2c) #inicia configurações do mpu6050 na porta i2c escolhida
 
@@ -11,4 +11,3 @@ while True:
     print("Accelerometer:\t", mpu6050.mpu6050_get_accel(i2c), "g") #aceleração 3 eixos
     print("Gyroscope:\t", mpu6050.mpu6050_get_gyro(i2c), "°/s") #giroscópio 3 eixos
     time.sleep_ms(500)
-    
