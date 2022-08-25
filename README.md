@@ -70,7 +70,7 @@
   
   ##### DS18B20-CODE
   ~~~Python
-#importação das bibliotecas para pinos, protocolo, sensor e tempo 
+#importação das bibliotecas
 import machine, oneWire, ds18x20, time
 
 pinoTemp = machine.Pin(6) #define o pino utilizado na montagem (GPIO6 - pino 9)
@@ -88,9 +88,20 @@ while True:
   
   ##### MPU6050-CODE
   ~~~Python
-  from mpu6050 import mpu6050
-  os.mkdir("teste")
-  print("Hello world!!!")
+#importação das bibliotecas
+import machine, time, mpu6050
+
+#define pinos i2c utilizados na montagem (GPIO21 - pino 27) (GPIO20 - pino 26) 
+i2c = machine.I2C(0, scl= machine.Pin(21), sda= machine.Pin(20), freq=400000)
+mpu6050.mpu6050_init(i2c) #inicia configurações do mpu6050 na porta i2c escolhida
+
+#loop de leitura de dados
+while True:
+    print("Temperature:\t", mpu6050.mpu6050_get_temp(i2c), "°C") #temperatura
+    print("Accelerometer:\t", mpu6050.mpu6050_get_accel(i2c), "g") #aceleração 3 eixos
+    print("Gyroscope:\t", mpu6050.mpu6050_get_gyro(i2c), "°/s") #giroscópio 3 eixos
+    time.sleep_ms(500)
+
   
   ~~~ 
   
