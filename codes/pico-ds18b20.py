@@ -1,4 +1,4 @@
-#importação das bibliotecas para pinos, protocolo, sensor e tempo 
+#importação das bibliotecas
 import machine, oneWire, ds18x20, time
 
 pinoTemp = machine.Pin(6) #define o pino utilizado na montagem (GPIO6 - pino 9)
