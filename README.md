@@ -109,29 +109,18 @@ while True:
     print("Gyroscope:\t", mpu6050.mpu6050_get_gyro(i2c), "°/s") #giroscópio 3 eixos
     time.sleep_ms(500)
 
-  
   ~~~ 
   
- ##### ACS712-CODE
-   ~~~Python
-  import mchine
-  y = machine.pin(10)
-  print("Hello world!!!")
-  
+ ##### ACS712-CODE ---
+   ~~~python 
+  print("Hello World !!!")
   ~~~
  
- ##### ESP-01-CODE
-   ~~~Python
-  import time
-  time.daytime()
-  print("Hello world!!!")
-  
-  ~~~
-  
+ ##### ESP-01-CODE ---
   ~~~python 
-  print("hello")
+  print("Hello World !!!")
   ~~~
   
-   > teste!!!
+   > test!!!
       
   <p align="center"> README incompleto !!! <p>
