@@ -132,9 +132,6 @@ while True:
   print("hello")
   ~~~
   
-  
-  
-   testando descrição muito boa topzera melhor de todas
-   > muito top mesmo  sempre uso é show
+   > teste!!!
       
   <p align="center"> README incompleto !!! <p>
