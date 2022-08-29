@@ -43,7 +43,7 @@
  [ADC](https://www.circuitschools.com/how-to-use-adc-on-raspberry-pi-pico-in-detail-with-micropython-example/) *(Analog to Digital Converter)* - Gera uma codificação digital a partir de um nível de tensão ou intensidade de corrente analogica de um sensor.
  
  
- [UART](https://www.rohde-schwarz.com/br/produtos/teste-e-medicao/osciloscopios/educational-content/compreender-uart_254524.html) *(Universal Asynchronous Receiver/Transmitter)* - Como o proprio nome diz, é um protocolo assíncrono que possibilita a comunicação serial entre dois dispositivos de forma full-duplex.
+ [UART](https://www.rohde-schwarz.com/br/produtos/teste-e-medicao/osciloscopios/educational-content/compreender-uart_254524.html) *(Universal Asynchronous Receiver/Transmitter)* - Como o próprio nome diz, é um protocolo assíncrono que possibilita a comunicação serial entre dois dispositivos de forma full-duplex.
   
   
   ## Montagem:
