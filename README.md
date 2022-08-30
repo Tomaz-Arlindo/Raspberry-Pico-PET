@@ -26,7 +26,7 @@
   * **[ACS712](https://how2electronics.com/how-to-use-adc-in-raspberry-pi-pico-adc-example-code/)** *(Sensor de Corrente 20A max):* ---
   
   
-  * **[ESP-01](https://www.filipeflop.com/blog/como-conectar-a-raspberry-pi-pico-ao-wifi-com-esp8266/)** *(ESP-8266 Conexão Wi-Fi):* Um módulo sem fio, compacto e de baixo custo que possibilita que um microcontrolador mais poderoso possa de conectar a uma rede WiFi podendo também hospedar aplicação própria respeitando suas limitações.
+  * **[ESP-01](https://www.filipeflop.com/blog/como-conectar-a-raspberry-pi-pico-ao-wifi-com-esp8266/)** *(ESP-8266 Conexão Wi-Fi):* Um módulo *Wireless*, compacto e de baixo custo que possibilita que um microcontrolador mais poderoso possa de conectar a uma rede WiFi podendo também hospedar aplicação própria respeitando suas limitações.
   
   
   ## Protocolos:
@@ -111,12 +111,12 @@ while True:
 
   ~~~ 
   
- ##### ACS712-CODE ---
+ ##### ACS712-CODE
    ~~~python 
   print("Hello World !!!")
   ~~~
  
- ##### ESP-01-CODE ---
+ ##### ESP-01-CODE
   ~~~python 
   print("Hello World !!!")
   ~~~
