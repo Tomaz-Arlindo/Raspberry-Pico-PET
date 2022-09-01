@@ -23,7 +23,7 @@
   * **[MPU6050](https://microdigisoft.com/mpu6050-with-raspberry-pi-pico-using-micropython/)** *(Módulo Acelerômetro 3 Eixos):* Um MEMS (Micro-Electro-Mechanical Systems) que conta com um sensor de temperatura, um giroscópio de 3 eixos e um acelerômetro de 3 eixos (o foco deste projeto), entrega com grande precisão e velocidade seus dados de forma digital através do protocolo I2c.
   
   
-  * **[ACS712](https://how2electronics.com/how-to-use-adc-in-raspberry-pi-pico-adc-example-code/)** *(Sensor de Corrente 20A max):* ---
+  * **[ACS712](https://how2electronics.com/how-to-use-adc-in-raspberry-pi-pico-adc-example-code/)** *(Sensor de Corrente 20A max):* Realiza a leitura de corrente alternada (AC) e contínua (DC). Este sensor utiliza efeito hall para fazer a detecção do campo magnético que é gerado pela passagem da corrente e no pino de saída é gerada uma tensão analógica proporcional à entrada.
   
   
   * **[ESP-01](https://www.filipeflop.com/blog/como-conectar-a-raspberry-pi-pico-ao-wifi-com-esp8266/)** *(ESP-8266 Conexão Wi-Fi):* Um módulo *Wireless*, compacto e de baixo custo que possibilita que um microcontrolador mais poderoso possa de conectar a uma rede WiFi podendo também hospedar aplicação própria respeitando suas limitações.
